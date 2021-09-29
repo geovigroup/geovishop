@@ -636,7 +636,7 @@ input[type='radio'] {
 /* version 3*/
 
 .index3 #banner {
-  background: url(../images/banner-bg.jpg);
+  /* background: url(../images/banner-bg.jpg); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1076,7 +1076,7 @@ input[type='radio'] {
 =============================*/
 
 #banner {
-  padding: 220px 0 170px;
+  padding: 220px 0 52px 0;
   background: #191919;
   overflow-y: hidden;
   position: relative;
@@ -1119,7 +1119,7 @@ input[type='radio'] {
 
 .banner-txt h3 {
   font-family: bb;
-  font-size: 100px;
+  font-size: 92px;
   -webkit-text-stroke-color: #4485e7;
   -webkit-text-fill-color: #fff;
   -webkit-text-stroke-width: 1px;
@@ -1128,9 +1128,10 @@ input[type='radio'] {
 
 .banner-txt p {
   font-family: br;
-  font-size: 19px;
+  font-size: 24px;
   color: #787878;
   padding: 18px 40px 48px 0;
+  line-height: 32px;
 }
 
 .main-btn {
@@ -1159,7 +1160,7 @@ input[type='radio'] {
 
 .banner-img img {
   position: absolute;
-  top: -80px;
+  top: -68px;
   z-index: 1;
 }
 
